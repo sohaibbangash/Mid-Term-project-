@@ -10,22 +10,34 @@
 
 <body>
     <header class="navbar">
-        <nav class="nav-container">
+    <nav class="nav-container">
 
-            <ul class="nav-left">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Destinattions</a></li>
-                <li><a href="#">Packages</a></li>
-            </ul>
-            <div class="logo">Travel & Tourism</div>
+        <!-- Hamburger Checkbox -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
-            <ul class="nav-right">
-                <li><a href="#"> Gallery</a></li>
-                <li><a href="#"> About US</a></li>
-                <li><a href="#"> contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- Hamburger Icon -->
+        <label for="menu-toggle" class="hamburger">☰</label>
+
+        <!-- Left Menu -->
+        <ul class="nav-left nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Packages</a></li>
+        </ul>
+
+        <!-- Logo -->
+        <div class="logo">Travel & Tourism</div>
+
+        <!-- Right Menu -->
+        <ul class="nav-right nav-menu">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
 
     <section class="hero-section">
         <video src="./images/15016587_3840_2160_30fps.mp4" class="hero-video" autoplay loop muted></video>
