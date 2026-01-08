@@ -47,7 +47,7 @@ cursor: pointer;
   
 }
 .main-container{
-    background-image: url(./images/ChatGPT\ Image\ Jan\ 8\,\ 2026\,\ 05_24_28\ PM.png);
+    background-image: url(./ChatGPT\ Image\ Jan\ 8\,\ 2026\,\ 05_24_28\ PM.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -228,4 +228,5 @@ cursor: pointer;
     text-align: center;
     padding-top: 25px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
+
 }
