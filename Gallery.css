@@ -139,17 +139,32 @@ section h1 {
         padding: 15px 20px;
     }
 
-    .hero__title {
-        font-size: 38px;
-    }
+    /* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px 35px;
+}
 
-    .hero__text {
-        font-size: 16px;
-    }
+.gallery .item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
 
-    .destinations-container {
-        gap: 20px;
-    }
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
 }
 
 /* Mobile (max-width: 768px) */
@@ -167,21 +182,31 @@ section h1 {
         justify-content: center;
     }
 
-    .hero-section {
-        height: 70vh;
-    }
+   /* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px 30px;
+}
 
-    .hero__title {
-        font-size: 30px;
-    }
+.gallery .item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
 
-    .hero__text {
-        font-size: 15px;
-    }
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
 
-    .destinations {
-        padding: 40px 20px;
-    }
+/* Hover Effect */
+.gallery img:hover {
+    transform: scale(1.1);
+}
 
     .footer-container {
         flex-direction: column;
@@ -196,16 +221,31 @@ section h1 {
 /* Small phones (max-width: 480px) */
 @media (max-width: 480px) {
 
-    .hero__title {
-        font-size: 26px;
-    }
+   /* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 5px 25px;
+}
 
-    .hero-btn {
-        padding: 8px 16px;
-    }
+.gallery .item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
 
-    .destination-card {
-        width: 100%;
-    }
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
 }
  
